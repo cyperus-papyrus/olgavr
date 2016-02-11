@@ -48,11 +48,11 @@ def init_db():
     db.commit()
 
 
-@app.cli.command('initdb')
-def initdb_command():
-    """Creates the database tables."""
-    init_db()
-    print('Initialized the database.')
+#@app.cli.command('initdb')
+#def initdb_command():
+#    """Creates the database tables."""
+#    init_db()
+#    print('Initialized the database.')
 
 
 def get_db():
