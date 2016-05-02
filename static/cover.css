@@ -99,11 +99,8 @@ body {
 }
 
 @media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
   .masthead-nav {
-    float: right;
+    float: center;
   }
 }
 
