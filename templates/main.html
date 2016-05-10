@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="http://bootstrap-3.ru/assets/ico/favicon.ico">
+    <meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="../static/favicon.ico" type="image/x-icon">
+<link rel="icon" href="../static/favicon.ico" type="image/x-icon">
 
     <title>olgavr</title>
 
@@ -48,36 +50,47 @@
             <div class="inner">
                 <ul class="nav masthead-nav nav-tabs" id="myTab">
                     <li class="active"><a href="#home" data-toggle="tab">Главная</a></li>
-                    <li><a href="#detail" data-toggle="tab">Детали</a></li>
-                    <li><a href="#contacts" data-toggle="tab">Контакты</a></li>
+                    <li><a href="#detail" data-toggle="tab">Что я умею</a></li>
+                    <li><a href="#contacts" data-toggle="tab">Как со мной связаться</a></li>
                 </ul>
             </div>
           </div>
 <div class="tab-content">
   <div class="tab-pane active" id="home">
       <div class="inner cover" style="background: rgba(0, 0, 0, 0.6); border-radius: 20px;">
-            <h1 class="cover-heading">Привет!</h1>
-            <p class="lead">Рис. 1. Гиппокамп мыши линии Thy1-GFP. Окраска при помощи GFP, изображение сделано с помощью конфокального микроскопа LSM 780. Образец предоставлен факультетом MCDB Калифорнийского университета Санта-Круз. <code>www.zeiss.com/elyra</code></p>
-            <p class="lead">
-              <a href="#contacts" data-toggle="tab" class="btn btn-lg btn-default">Связаться со мной</a>
-            </p>
-          </div></div>
+            <h1 class="cover-heading">Здравствуйте!</h1>
+            <p class="lead">Меня зовут Ольга, я junior Python программист.</p>
+            <p class="lead">Вы знаете, что делать дальше. </p>
+          </div>
+      <div align="right" style="color: #C5C4C4; position: absolute; left: 30%; padding-right: 20px; padding-top: 10px;"><p class="lead" style="font-size: 16px;">На фоне: Гиппокамп мыши линии Thy1-GFP. Окраска при помощи GFP, изображение сделано с помощью конфокального микроскопа LSM 780. Образец предоставлен факультетом MCDB Калифорнийского университета Санта-Круз. <code>www.zeiss.com/elyra</code></p>
+            <p class="lead" style="font-size: 16px;">Здорово, правда?</p></div>
+  </div>
   <div class="tab-pane" id="detail"><div class="inner cover" style="background: rgba(0, 0, 0, 0.6); border-radius: 20px;">
-            <h1 class="cover-heading">Тема: «Далекий аргумент перигелия: гипотеза и теории»</h1>
-            <p class="lead">Различное расположение, так или иначе, пространственно дает часовой угол. Летучая Рыба, в том числе, однородно иллюстрирует экваториальный экватор. Декаданс, и это следует подчеркнуть, изящно имеет реализм.</p>
-
-<p class="lead">Очевидно, что синтетическая история искусств выстраивает астероидный поперечник. Художественное переживание прекрасно колеблет художественный ритуал, однако само по себе состояние игры всегда амбивалентно. Возрождение прочно вызывает самодостаточный сарос, однако большинство спутников движутся вокруг своих планет в ту же сторону, в какую вращаются планеты. Весьма существенно следующее: угловое расстояние иллюстрирует межпланетный математический горизонт. Орбита свободна.</p>
-            <p class="lead">
-            </p>
+            <h1 class="cover-heading">Использую:</h1>
+            <p class="lead">Язык программирования: Python</p>
+            <p class="lead">Фреймворки: Django, Flask</p>
+            <p class="lead">БД: MySQL</p>
+            <p class="lead">Верстка: HTML, CSS, JS, jQuery, Bootstrap</p>
+            <p class="lead">Инструменты: Git, Linux(Ubuntu), virtualenv</p>
           </div>
       </div>
   <div class="tab-pane" id="contacts">
       <div class="inner cover" style="background: rgba(0, 0, 0, 0.6); border-radius: 20px;">
             <h1 class="cover-heading">Как со мной связаться:</h1>
-            <p class="lead"><i class="fa fa-bitbucket"></i> можно тут</p>
-            <p class="lead"><i class="fa fa-github"></i>  можно там</p>
-            <p class="lead"><i class="fa fa-skype"></i> можно сям</p>
-            <p class="lead"><i class="fa fa-google"></i> можно сям</p>
+            <noindex><p class="lead"><i class="fa fa-google"></i> <a href="mailto:cdg013@gmail.com"> cdg013@gmail.com </a></p>
+            <p class="lead"><i class="fa fa-skype"></i> cdg013</p> <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+                    <div id="SkypeButton_Call_cdg013_1">
+                     <script type="text/javascript">
+                     Skype.ui({
+                     "name": "chat",
+                     "element": "SkypeButton_Call_cdg013_1",
+                     "participants": ["cdg013"],
+                     "imageColor": "white",
+                     "imageSize": 24
+                     });
+                     </script>
+                    </div>
+            <p class="lead"><i class="fa fa-github"></i> <a href="https://github.com/cyperus-papyrus">cyperus-papyrus</a></p></noindex>
           </div>
   </div>
 </div>
@@ -87,12 +100,6 @@
     $('#myTab a:last').tab('show')
   })
 </script>
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Cover template for <a href="http://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-            </div>
-          </div>
-
         </div>
 
       </div>
