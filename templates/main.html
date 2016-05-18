@@ -48,9 +48,9 @@
           <div class="masthead clearfix">
             <div class="inner">
                 <ul class="nav masthead-nav nav-tabs" id="myTab">
-                    <li class="active"><a href="#home" data-toggle="tab">Главная</a></li>
-                    <li><a href="#detail" data-toggle="tab">Что я умею</a></li>
-                    <li><a href="#contacts" data-toggle="tab">Как со мной связаться</a></li>
+                    <li class="active"><a href="#home" onclick="MyFunction()" data-toggle="tab">Главная</a></li>
+                    <li><a href="#detail" data-toggle="tab" onclick="MyFunction()">Что я умею</a></li>
+                    <li><a href="#contacts" data-toggle="tab" onclick="MyFunction()">Как со мной связаться</a></li>
                 </ul>
             </div>
           </div>
@@ -66,10 +66,10 @@
   </div>
   <div class="tab-pane" id="detail"><div class="inner cover" style="background: rgba(0, 0, 0, 0.6); border-radius: 20px;">
         <h1 class="cover-heading">Готовые проекты:</h1>
-                <p class="lead"><b>Март-апрель 2016 года:</b> Создание системы карточек в MARC-формате.</p>
-                <p class="lead">Разработка, отладка и запуск системы подбора, редактирования и экспорта карточек библиографического описания в формате iso 2709.</p>
+                <p class="lead" style="font-size: 18px;"><b>Март-апрель 2016 года:</b> Создание системы карточек в MARC-формате.</p>
+                <p class="lead" style="font-size: 18px;">Разработка, отладка и запуск системы подбора, редактирования и экспорта карточек библиографического описания в формате iso 2709. Работа включала в себя создание парсера на языке Python и создание веб-приложения для редактирования найденной информации.</p>
 <br />
-                <p class="lead"><b>Апрель-май 2016 года:</b> Разработка сайта rudut.ru на базе Django фреймворка с использованием Bootstrap, Javascript.</p>
+                <p class="lead" style="font-size: 18px;"><b>Апрель-май 2016 года:</b> Разработка сайта rudut.ru на базе Django фреймворка с использованием Bootstrap, Javascript.</p>
         <h1 class="cover-heading">Использую:</h1>
             <p class="lead">Язык программирования: Python</p>
             <p class="lead">Фреймворки: Django, Flask</p>
@@ -90,9 +90,9 @@
 </div>
 
 <script>
-  $(function () {
+  function MyFunction() {
     $('#myTab a:last').tab('show')
-  })
+  }
 </script>
         </div>
 
